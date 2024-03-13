@@ -1,0 +1,507 @@
+[14:22:50] [ServerMain/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[14:22:50] [ServerMain/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[14:22:50] [ServerMain/WARN]: Disabling further attempts to query Paging File.
+[14:22:58] [ServerMain/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[14:23:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:23:16] [ServerMain/INFO]: Loaded 7 recipes
+[14:23:18] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[14:23:18] [Server thread/INFO]: Loading properties
+[14:23:19] [Server thread/INFO]: This server is running CraftBukkit version 4056-Spigot-e9ec548-176c0ad (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[14:23:21] [Server thread/INFO]: Debug logging is disabled
+[14:23:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:23:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:23:21] [Server thread/INFO]: Default game type: SURVIVAL
+[14:23:21] [Server thread/INFO]: Generating keypair
+[14:23:21] [Server thread/INFO]: Starting Minecraft server on *:11430
+[14:23:21] [Server thread/INFO]: Using default channel type
+[14:23:22] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[14:23:29] [Server thread/WARN]: Legacy plugin OnePlayerSleep v1.3 does not specify an api-version.
+[14:23:30] [Server thread/INFO]: [OnePlayerSleep] Loading OnePlayerSleep v1.3
+[14:23:30] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.9.3
+[14:23:30] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[14:23:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:23:33] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:23:33] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.2-SNAPSHOT (b96-7f38765)
+[14:23:36] [Server thread/WARN]: [floodgate] en_IN is not a supported Floodgate language.
+[14:23:37] [Server thread/INFO]: [floodgate] Took 3,281ms to boot Floodgate
+[14:23:37] [Server thread/INFO]: [DiscordWhitelist] Loading DiscordWhitelist v24.3.3
+[14:23:37] [Server thread/INFO]: [DriveBackupV2] Loading DriveBackupV2 v1.6.1
+[14:23:37] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.0.6-SNAPSHOT
+[14:23:37] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.2.2-SNAPSHOT
+[14:23:38] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[14:23:38] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[14:23:38] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.0.6-SNAPSHOT
+[14:23:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:23:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:23:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:23:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:23:38] [Server thread/INFO]: Preparing level "world"
+[14:23:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:23:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:23:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:23:38] [Server thread/INFO]: View Distance: 10
+[14:23:38] [Server thread/INFO]: Simulation Distance: 10
+[14:23:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:23:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:23:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:23:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:23:38] [Server thread/INFO]: Mob Spawn Range: 6
+[14:23:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:23:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:23:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:23:38] [Server thread/INFO]: Max TNT Explosions: 100
+[14:23:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:23:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:23:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:23:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:23:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:23:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:23:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:23:39] [Server thread/INFO]: View Distance: 10
+[14:23:39] [Server thread/INFO]: Simulation Distance: 10
+[14:23:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:23:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:23:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:23:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:23:39] [Server thread/INFO]: Mob Spawn Range: 6
+[14:23:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:23:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:23:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:23:39] [Server thread/INFO]: Max TNT Explosions: 100
+[14:23:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:23:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:23:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:23:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:23:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:23:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:23:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:23:58] [Server thread/INFO]: View Distance: 10
+[14:23:58] [Server thread/INFO]: Simulation Distance: 10
+[14:23:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:23:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:23:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:23:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:23:58] [Server thread/INFO]: Mob Spawn Range: 6
+[14:23:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:23:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:23:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:23:58] [Server thread/INFO]: Max TNT Explosions: 100
+[14:23:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:23:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:23:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:23:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:23:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:15] [Server thread/INFO]: Time elapsed: 17459 ms
+[14:24:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:28] [Server thread/INFO]: Time elapsed: 12138 ms
+[14:24:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:24:35] [Server thread/INFO]: Time elapsed: 7211 ms
+[14:24:35] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3
+[14:24:35] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[14:24:35] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[14:24:35] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[14:24:35] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[14:24:35] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[14:24:35] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[14:24:35] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[14:24:35] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b96-7f38765)
+[14:24:38] [Server thread/INFO]: [DiscordWhitelist] Enabling DiscordWhitelist v24.3.3
+[14:24:38] [Server thread/INFO]: [m
+[14:24:38] [Server thread/INFO]: 
+[14:24:38] [Server thread/INFO]:   [0;37;1m┏━━━┳━━━┳┓┏┓┏┳┓     [m
+[14:24:38] [Server thread/INFO]:   [0;37;1m┗┓┏┓┃┏━┓┃┃┃┃┃┃┃     [0;37;22m│ [0;37;1mPlugin by [0;36;1mWIND STUDIO[m
+[14:24:38] [Server thread/INFO]:   [0;37;1m ┃┃┃┃┗━━┫┃┃┃┃┃┃     [0;37;22m│ [0;35;22mDiscord[0;37;1mWhitelist [0;37;22m· [0;33;1m2024[m
+[14:24:38] [Server thread/INFO]:   [0;37;1m ┃┃┃┣━━┓┃┗┛┗┛┃┃ ┏┓  [0;37;22m│ [m
+[14:24:38] [Server thread/INFO]:   [0;37;1m┏┛┗┛┃┗━┛┣┓┏┓┏┫┗━┛┃  [0;37;22m│ [0;30;1m([0;37;22mCraftBukkit[0;30;1m) [0;37;1mVersion: [0;36;1mv24.3.3 [0;37;22m· [0;32;1mLoading...[m
+[14:24:38] [Server thread/INFO]:   [0;37;1m┗━━━┻━━━┛┗┛┗┛┗━━━┛  [m
+[14:24:38] [Server thread/INFO]: [m
+[14:24:38] [Server thread/INFO]:  [0;33;1m› [0;37;1mYour server version:[0;33;1m v1_20_R3 [0;30;1m([0;37;22m1.20.4[0;30;1m)[m[m
+[14:24:38] [Server thread/INFO]:  [0;32;1m› [0;37;1mThis version is supported! Continuing...[m[m
+[14:24:38] [Server thread/INFO]: [0;33;1m › [0;37;1mVersion[0;33;22m: [0;33;1mAPI [0;37;22m› [0;33;22mv25 [0;37;22m| [0;33;1mModules [0;37;22m› [0;33;22mv1.0 [0;37;22m| [0;33;1mEWhitelist [0;37;22m› [0;33;22mv1.25.2 [0;37;22m| [0;33;1mLinking [0;37;22m› [0;33;22mv1.07.3[m
+[14:24:38] [Server thread/INFO]: [0;33;1m › [0;37;1mLoading modules...[m
+[14:24:38] [Server thread/INFO]: [0;32;1m › [0;37;1mModule [0;33;1mReload[0;33;22m([0;37;1mv[0;33;1m1.1[0;37;1m by [0;33;1mWIND STUDIO[0;33;22m)[0;37;1m loaded![m
+[14:24:38] [Server thread/INFO]: [0;33;1m › [0;37;1m1[0;37;1m module(s) loaded![m
+[14:24:38] [Server thread/INFO]: [0;33;1m › [0;37;1mConnecting to [0;33;1mSQLite[0;37;1m...[m
+[14:24:39] [Server thread/INFO]: [0;32;1m › [0;37;1mSuccessfully connected to [0;32;1mSQLite[0;37;1m![m
+[14:24:44] [Server thread/INFO]: Login Successful!
+[14:24:45] [JDA MainWS-ReadThread/INFO]: Connected to WebSocket
+[14:24:47] [JDA MainWS-ReadThread/INFO]: Finished Loading!
+[14:24:47] [Server thread/INFO]: [0;32;1m › [0;37;1mRegistering events...[m
+[14:24:47] [Server thread/INFO]: [0;32;1m › [0;37;1mRegistering commands...[m
+[14:24:47] [Server thread/INFO]: [0;32;1m › [0;37;1mRegistering interactions...[m
+[14:24:47] [Server thread/INFO]: [0;32;1m› [0;35;22mDiscordWhitelist[0;37;1m has started [0;32;1mcorrectly[0;37;1m in [0;32;1m8838 [0;37;1mms! Have a nice day [0;31;1m<3
+[14:24:47] [Server thread/INFO]: [m
+[14:24:47] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.6.1
+[14:24:48] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mConfig loaded![m
+[14:24:48] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mScheduling a backup to run every 60 minutes[m
+[14:24:48] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mMetrics started[m
+[14:24:48] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.2-SNAPSHOT
+[14:24:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:24:48] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:24:48] [Server thread/INFO]: [Geyser-Spigot] 
+[14:24:48] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.2-SNAPSHOT (git-master-621dc6f)
+[14:24:48] [Server thread/INFO]: [Geyser-Spigot] 
+[14:24:48] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:24:59] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:11429
+[14:24:59] [Server thread/INFO]: [Geyser-Spigot] Done (11.42s)! Run /geyser help for help!
+[14:25:00] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /100.65.254.2:63695 tried to connect!
+[14:25:00] [Server thread/INFO]: Done (81.895s)! For help, type "help"
+[14:25:00] [Craft Scheduler Thread - 1/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[14:25:00] [Craft Scheduler Thread - 3/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mChecking for updates...[m
+[14:25:01] [Craft Scheduler Thread - 3/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere was an issue attempting to check for the latest DriveBackupV2 release[m
+[14:25:01] [Craft Scheduler Thread - 3/WARN]: java.lang.NumberFormatException
+[14:25:01] [Craft Scheduler Thread - 3/WARN]: 	at ratismal.drivebackup.plugin.updater.UpdateChecker.getLatest(UpdateChecker.java:103)
+[14:25:01] [Craft Scheduler Thread - 3/WARN]: 	at ratismal.drivebackup.plugin.updater.UpdateChecker$1.run(UpdateChecker.java:51)
+[14:25:01] [Craft Scheduler Thread - 3/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:82)
+[14:25:01] [Craft Scheduler Thread - 3/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[14:25:01] [Craft Scheduler Thread - 3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[14:25:01] [Craft Scheduler Thread - 3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[14:25:01] [Craft Scheduler Thread - 3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[14:25:02] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ERENYEAGERx001
+[14:25:02] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ERENYEAGERx001 (logged in as: ERENYEAGERx001) has connected to the Java server
+[14:25:04] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ERENYEAGERx001 joined (UUID: 00000000-0000-0000-0009-01fefd83f8cf)
+[14:25:04] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /100.65.254.2:52012 tried to connect!
+[14:25:05] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mEnabling automatic backups[m
+[14:25:05] [Server thread/INFO]: .ERENYEAGERx001 joined the game
+[14:25:05] [Server thread/INFO]: .ERENYEAGERx001[/100.65.254.2:0] logged in with entity id 221 at ([world]29.67641, 73.0, -55.46342)
+[14:25:05] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Adventure Mode]
+[14:25:05] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /100.65.254.2:42255 tried to connect!
+[14:25:05] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username mrsajadpp
+[14:25:05] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] mrsajadpp (logged in as: mrsajadpp) has connected to the Java server
+[14:25:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2818ms or 56 ticks behind
+[14:25:06] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .mrsajadpp disconnected
+[14:25:06] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] mrsajadpp has disconnected from the Java server because of Connection throttled! Please wait before reconnecting.
+[14:25:10] [nioEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username rishixaj
+[14:25:10] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] rishixaj (logged in as: rishixaj) has connected to the Java server
+[14:25:10] [Server thread/INFO]: [floodgate] Floodgate player logged in as .rishixaj joined (UUID: 00000000-0000-0000-0009-01f792efb7bc)
+[14:25:11] [Server thread/INFO]: .rishixaj joined the game
+[14:25:11] [Server thread/INFO]: .rishixaj[/100.65.254.2:0] logged in with entity id 245 at ([world]26.5, 82.0, -55.5)
+[14:25:11] [Server thread/INFO]: [@: Set .rishixaj's game mode to Adventure Mode]
+[14:25:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3889ms or 77 ticks behind
+[14:25:31] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /100.65.254.2:52012 tried to connect!
+[14:25:34] [nioEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username mrsajadpp
+[14:25:34] [defaultEventLoopGroup-7-1/INFO]: [Geyser-Spigot] mrsajadpp (logged in as: mrsajadpp) has connected to the Java server
+[14:25:34] [Server thread/INFO]: [floodgate] Floodgate player logged in as .mrsajadpp joined (UUID: 00000000-0000-0000-0009-01feee35cd24)
+[14:25:34] [Server thread/INFO]: .mrsajadpp joined the game
+[14:25:34] [Server thread/INFO]: .mrsajadpp[/100.65.254.2:0] logged in with entity id 263 at ([world]18.969112, 72.9375, -57.142654)
+[14:25:38] [nioEventLoopGroup-3-1/ERROR]: [/100.65.254.2:42255] Error while ticking RakSessionCodec state=CONNECTED channelActive=true
+java.lang.NullPointerException: Cannot invoke "org.cloudburstmc.netty.channel.raknet.packet.RakDatagramPacket.getNextSend()" because "datagram" is null
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.sendStaleDatagrams(RakSessionCodec.java:522) ~[?:?]
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.internalFlush(RakSessionCodec.java:457) ~[?:?]
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.onTick(RakSessionCodec.java:420) ~[?:?]
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.tryTick(RakSessionCodec.java:392) ~[?:?]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:159) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:25:38] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] rishixaj has disconnected from the Java server because of disconnect.lost
+[14:25:38] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .rishixaj disconnected
+[14:25:38] [Server thread/INFO]: .rishixaj lost connection: Disconnected
+[14:25:39] [Server thread/INFO]: .rishixaj left the game
+[14:25:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2749ms or 54 ticks behind
+[14:26:18] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /100.65.254.2:42255 tried to connect!
+[14:26:21] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username rishixaj
+[14:26:21] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] rishixaj (logged in as: rishixaj) has connected to the Java server
+[14:26:22] [Server thread/INFO]: [floodgate] Floodgate player logged in as .rishixaj joined (UUID: 00000000-0000-0000-0009-01f792efb7bc)
+[14:26:22] [Server thread/INFO]: .rishixaj joined the game
+[14:26:22] [Server thread/INFO]: .rishixaj[/100.65.254.2:0] logged in with entity id 432 at ([world]25.270433, 81.88973950176134, -55.834522)
+[14:26:26] [Server thread/WARN]: .rishixaj was kicked for floating too long!
+[14:26:26] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .rishixaj disconnected
+[14:26:26] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] rishixaj has disconnected from the Java server because of Flying is not enabled on this server
+[14:26:26] [Server thread/INFO]: .rishixaj lost connection: Flying is not enabled on this server
+[14:26:26] [Server thread/INFO]: .rishixaj left the game.
+[14:26:26] [Server thread/WARN]: handleDisconnection() called twice
+[14:26:35] [Server thread/INFO]: Removed 66 item(s) from 2 players
+[14:26:48] [Server thread/INFO]: .ERENYEAGERx001 was killed
+[14:26:48] [Server thread/INFO]: .mrsajadpp was killed
+[14:26:48] [Server thread/INFO]: Killed 2 entities
+[14:27:33] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /100.65.254.2:42255 tried to connect!
+[14:27:36] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username rishixaj
+[14:27:36] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] rishixaj (logged in as: rishixaj) has connected to the Java server
+[14:27:37] [Server thread/INFO]: [floodgate] Floodgate player logged in as .rishixaj joined (UUID: 00000000-0000-0000-0009-01f792efb7bc)
+[14:27:37] [Server thread/INFO]: .rishixaj joined the game
+[14:27:37] [Server thread/INFO]: .rishixaj[/100.65.254.2:0] logged in with entity id 653 at ([world]25.270433, 81.7345079954834, -55.834522)
+[14:27:41] [Server thread/WARN]: .rishixaj was kicked for floating too long!
+[14:27:41] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .rishixaj disconnected
+[14:27:41] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] rishixaj has disconnected from the Java server because of Flying is not enabled on this server
+[14:27:41] [Server thread/INFO]: .rishixaj lost connection: Flying is not enabled on this server
+[14:27:41] [Server thread/INFO]: .rishixaj left the game.
+[14:27:41] [Server thread/WARN]: handleDisconnection() called twice
+[14:27:59] [Server thread/INFO]: Incorrect argument for command
+[14:27:59] [Server thread/INFO]: gamerule flying true<--[HERE]
+[14:28:11] [nioEventLoopGroup-3-1/ERROR]: [/100.65.254.2:52012] Error while ticking RakSessionCodec state=CONNECTED channelActive=true
+java.lang.NullPointerException: Cannot invoke "org.cloudburstmc.netty.channel.raknet.packet.RakDatagramPacket.getNextSend()" because "datagram" is null
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.sendStaleDatagrams(RakSessionCodec.java:522) ~[?:?]
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.internalFlush(RakSessionCodec.java:457) ~[?:?]
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.onTick(RakSessionCodec.java:420) ~[?:?]
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.tryTick(RakSessionCodec.java:392) ~[?:?]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:159) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:28:11] [defaultEventLoopGroup-7-1/INFO]: [Geyser-Spigot] mrsajadpp has disconnected from the Java server because of disconnect.lost
+[14:28:11] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .mrsajadpp disconnected
+[14:28:11] [Server thread/INFO]: .mrsajadpp lost connection: Disconnected
+[14:28:11] [Server thread/INFO]: .mrsajadpp left the game
+[14:28:22] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /100.65.254.2:42255 tried to connect!
+[14:28:26] [nioEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username rishixaj
+[14:28:26] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] rishixaj (logged in as: rishixaj) has connected to the Java server
+[14:28:26] [Server thread/INFO]: [floodgate] Floodgate player logged in as .rishixaj joined (UUID: 00000000-0000-0000-0009-01f792efb7bc)
+[14:28:26] [Server thread/INFO]: .rishixaj joined the game
+[14:28:26] [Server thread/INFO]: .rishixaj[/100.65.254.2:0] logged in with entity id 747 at ([world]25.270433, 80.76877627577663, -55.834522)
+[14:28:28] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Survival Mode]
+[14:28:44] [Server thread/INFO]: .ERENYEAGERx001 drowned
+[14:28:46] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Adventure Mode]
+[14:29:02] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /100.65.254.2:37744 tried to connect!
+[14:29:03] [nioEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username mrsajadpp
+[14:29:03] [defaultEventLoopGroup-7-1/INFO]: [Geyser-Spigot] mrsajadpp (logged in as: mrsajadpp) has connected to the Java server
+[14:29:04] [Server thread/INFO]: [floodgate] Floodgate player logged in as .mrsajadpp joined (UUID: 00000000-0000-0000-0009-01feee35cd24)
+[14:29:04] [Server thread/INFO]: .mrsajadpp joined the game
+[14:29:04] [Server thread/INFO]: .mrsajadpp[/100.65.254.2:0] logged in with entity id 847 at ([world]35.66947, 74.0, -50.10131)
+[14:29:24] [Server thread/WARN]: .rishixaj moved too quickly! -3.9321829999999984,8.768780000000007,3.4654880000000006
+[14:29:39] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Survival Mode]
+[14:29:46] [Server thread/INFO]: [@: Set .rishixaj's game mode to Survival Mode]
+[14:29:47] [defaultEventLoopGroup-7-1/INFO]: [Geyser-Spigot] mrsajadpp has disconnected from the Java server because of Bedrock client disconnected
+[14:29:47] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .mrsajadpp disconnected
+[14:29:47] [Server thread/INFO]: .mrsajadpp lost connection: Disconnected
+[14:29:47] [Server thread/INFO]: .mrsajadpp left the game
+[14:30:22] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /192.168.1.2:58440 tried to connect!
+[14:30:23] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username mrsajadpp
+[14:30:23] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] mrsajadpp (logged in as: mrsajadpp) has connected to the Java server
+[14:30:24] [Server thread/INFO]: [floodgate] Floodgate player logged in as .mrsajadpp joined (UUID: 00000000-0000-0000-0009-01feee35cd24)
+[14:30:24] [Server thread/INFO]: .mrsajadpp joined the game
+[14:30:24] [Server thread/INFO]: .mrsajadpp[/192.168.1.2:0] logged in with entity id 1075 at ([world]40.86492, 75.0, -62.514698)
+[14:30:53] [Server thread/INFO]: [@: Set .mrsajadpp's game mode to Survival Mode]
+[14:31:10] [Server thread/INFO]: .rishixaj burned to death
+[14:31:16] [Server thread/INFO]: [@: Set .rishixaj's game mode to Adventure Mode]
+[14:31:46] [Server thread/INFO]: [@: Set .rishixaj's game mode to Survival Mode]
+[14:31:55] [Server thread/INFO]: [@: Set .mrsajadpp's game mode to Adventure Mode]
+[14:32:05] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Adventure Mode]
+[14:32:15] [Server thread/INFO]: [@: Teleported Creeper to 26.500000, -30.500000, -55.500000]
+[14:32:28] [Server thread/INFO]: .mrsajadpp was slain by Zombie
+[14:32:33] [Server thread/INFO]: .ERENYEAGERx001 was slain by Zombie
+[14:32:33] [Server thread/INFO]: [@: Set .rishixaj's game mode to Adventure Mode]
+[14:32:38] [nioEventLoopGroup-3-1/ERROR]: [/100.65.254.2:63695] Error while ticking RakSessionCodec state=CONNECTED channelActive=true
+java.lang.NullPointerException: Cannot invoke "org.cloudburstmc.netty.channel.raknet.packet.RakDatagramPacket.getNextSend()" because "datagram" is null
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.sendStaleDatagrams(RakSessionCodec.java:522) ~[?:?]
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.internalFlush(RakSessionCodec.java:457) ~[?:?]
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.onTick(RakSessionCodec.java:420) ~[?:?]
+	at org.cloudburstmc.netty.handler.codec.raknet.common.RakSessionCodec.tryTick(RakSessionCodec.java:392) ~[?:?]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:159) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:32:38] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ERENYEAGERx001 disconnected
+[14:32:38] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ERENYEAGERx001 has disconnected from the Java server because of disconnect.lost
+[14:32:38] [Server thread/INFO]: .ERENYEAGERx001 lost connection: Disconnected
+[14:32:38] [Server thread/INFO]: .ERENYEAGERx001 left the game
+[14:32:47] [Server thread/INFO]: .rishixaj was slain by Zombie
+[14:32:54] [Server thread/INFO]: [@: Set .mrsajadpp's game mode to Survival Mode]
+[14:33:00] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /100.65.254.2:63695 tried to connect!
+[14:33:01] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ERENYEAGERx001
+[14:33:01] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] ERENYEAGERx001 (logged in as: ERENYEAGERx001) has connected to the Java server
+[14:33:02] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ERENYEAGERx001 joined (UUID: 00000000-0000-0000-0009-01fefd83f8cf)
+[14:33:02] [Server thread/INFO]: .ERENYEAGERx001 joined the game
+[14:33:02] [Server thread/INFO]: .ERENYEAGERx001[/100.65.254.2:0] logged in with entity id 1673 at ([world]26.5637, 82.5, -56.141277)
+[14:33:22] [Server thread/INFO]: .rishixaj was slain by Zombie
+[14:33:32] [Server thread/INFO]: .mrsajadpp was shot by Skeleton
+[14:33:35] [Server thread/INFO]: [@: Set .mrsajadpp's game mode to Adventure Mode]
+[14:33:43] [Server thread/INFO]: [@: Set .mrsajadpp's game mode to Survival Mode]
+[14:33:53] [Server thread/INFO]: .ERENYEAGERx001 was slain by Zombie
+[14:34:21] [Server thread/WARN]: .rishixaj moved wrongly!
+[14:34:37] [Server thread/INFO]: [@: Set .rishixaj's game mode to Survival Mode]
+[14:34:52] [Server thread/INFO]: Killed .ERENYEAGERx001
+[14:35:00] [Server thread/INFO]: Set the time to 1000
+[14:35:05] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] ERENYEAGERx001 has disconnected from the Java server because of Bedrock client disconnected
+[14:35:05] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ERENYEAGERx001 disconnected
+[14:35:05] [Server thread/INFO]: .ERENYEAGERx001 lost connection: Disconnected
+[14:35:05] [Server thread/INFO]: .ERENYEAGERx001 left the game
+[14:35:12] [Server thread/INFO]: [@: Set .mrsajadpp's game mode to Adventure Mode]
+[14:35:15] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /100.65.254.2:63695 tried to connect!
+[14:35:16] [nioEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username ERENYEAGERx001
+[14:35:16] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] ERENYEAGERx001 (logged in as: ERENYEAGERx001) has connected to the Java server
+[14:35:17] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ERENYEAGERx001 joined (UUID: 00000000-0000-0000-0009-01fefd83f8cf)
+[14:35:17] [Server thread/INFO]: .ERENYEAGERx001 joined the game
+[14:35:17] [Server thread/INFO]: .ERENYEAGERx001[/100.65.254.2:0] logged in with entity id 2118 at ([world]20.210594, 73.0, -56.511116)
+[14:35:22] [Server thread/INFO]: [@: Set .mrsajadpp's game mode to Survival Mode]
+[14:35:33] [Server thread/INFO]: [@: Set .rishixaj's game mode to Adventure Mode]
+[14:35:41] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Survival Mode]
+[14:35:42] [Server thread/INFO]: [@: Set .rishixaj's game mode to Survival Mode]
+[14:36:05] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Adventure Mode]
+[14:36:17] [Server thread/INFO]: [@: Set .mrsajadpp's game mode to Adventure Mode]
+[14:36:23] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Survival Mode]
+[14:36:25] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Adventure Mode]
+[14:36:31] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Survival Mode]
+[14:36:40] [Server thread/INFO]: [@: Set .rishixaj's game mode to Adventure Mode]
+[14:36:44] [Server thread/INFO]: [@: Set .mrsajadpp's game mode to Survival Mode]
+[14:36:47] [Server thread/INFO]: [@: Set .rishixaj's game mode to Survival Mode]
+[14:36:48] [Server thread/INFO]: [@: Set .rishixaj's game mode to Adventure Mode]
+[14:36:49] [Server thread/INFO]: [@: Set .mrsajadpp's game mode to Adventure Mode]
+[14:37:03] [Server thread/INFO]: Incorrect argument for command
+[14:37:03] [Server thread/INFO]: weather set clear<--[HERE]
+[14:37:12] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[14:37:14] [Server thread/INFO]: Incorrect argument for command
+[14:37:14] [Server thread/INFO]: weather set clear<--[HERE]
+[14:37:18] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Adventure Mode]
+[14:37:21] [Server thread/INFO]: [@: Set .ERENYEAGERx001's game mode to Survival Mode]
+[14:37:24] [Server thread/INFO]: .mrsajadpp was killed
+[14:37:24] [Server thread/INFO]: .rishixaj was killed
+[14:37:24] [Server thread/INFO]: .ERENYEAGERx001 was killed
+[14:37:24] [Server thread/INFO]: Killed 3 entities
+[14:37:40] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] rishixaj has disconnected from the Java server because of Bedrock client disconnected
+[14:37:40] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .rishixaj disconnected
+[14:37:40] [Server thread/INFO]: .rishixaj lost connection: Disconnected
+[14:37:40] [Server thread/INFO]: .rishixaj left the game
+[14:37:42] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] mrsajadpp has disconnected from the Java server because of Bedrock client disconnected
+[14:37:42] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .mrsajadpp disconnected
+[14:37:42] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] ERENYEAGERx001 has disconnected from the Java server because of Bedrock client disconnected
+[14:37:42] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .ERENYEAGERx001 disconnected
+[14:37:42] [Server thread/INFO]: .mrsajadpp lost connection: Disconnected
+[14:37:42] [Server thread/INFO]: .mrsajadpp left the game
+[14:37:42] [Server thread/INFO]: .ERENYEAGERx001 lost connection: Disconnected
+[14:37:42] [Server thread/INFO]: .ERENYEAGERx001 left the game
